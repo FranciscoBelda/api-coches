@@ -1,10 +1,9 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './app.module.js';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import * as express from 'express';
-import { Server } from 'http';
+import express from 'express';
 
-let cachedServer: Server;
+let cachedServer: any;
 
 async function bootstrap() {
     if (!cachedServer) {
