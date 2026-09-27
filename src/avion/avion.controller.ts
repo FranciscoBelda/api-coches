@@ -27,47 +27,47 @@ export class AvionController {
                 GetAll: {
                     function: 'GET',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/get/all',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/get/all',
                 },
                 GetAllPaginated: {
                     function: 'GET',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/get/all-paginated?page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/get/all-paginated?page=1&limit=10',
                 },
                 GetOne: {
                     function: 'GET',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/get/one-avion/id',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/get/one-avion/id',
                 },
                 GetByTitle: {
                     function: 'GET',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/get/search?title=avionTitle&page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/get/search?title=avionTitle&page=1&limit=10',
                 },
                 Add: {
                     function: 'POST',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/add',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/add',
                 },
                 UpdatePut: {
                     function: 'PUT',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/update/put/id',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/update/put/id',
                 },
                 UpdatePatch: {
                     function: 'PATCH',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/update/patch/id',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/update/patch/id',
                 },
                 Delete: {
                     function: 'DELETE',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/delete/id',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/delete/id',
                 },
                 GetGenres: {
                     function: 'GET',
                     endpoint:
-                        'https://api-avion-gamma-three.vercel.app/api/v1/aviones/get/genres',
+                        'https://api-vehiculos.vercel.app/api/v1/aviones/get/genres',
                 },
             },
         };

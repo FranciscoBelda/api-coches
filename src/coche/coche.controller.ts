@@ -27,47 +27,47 @@ export class CocheController {
                 GetAll: {
                     function: 'GET',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/get/all',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/get/all',
                 },
                 GetAllPaginated: {
                     function: 'GET',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/get/all-paginated?page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/get/all-paginated?page=1&limit=10',
                 },
                 GetOne: {
                     function: 'GET',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/get/one-coche/id',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/get/one-coche/id',
                 },
                 GetByTitle: {
                     function: 'GET',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/get/search?title=cocheTitle&page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/get/search?title=cocheTitle&page=1&limit=10',
                 },
                 Add: {
                     function: 'POST',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/add',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/add',
                 },
                 UpdatePut: {
                     function: 'PUT',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/update/put/id',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/update/put/id',
                 },
                 UpdatePatch: {
                     function: 'PATCH',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/update/patch/id',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/update/patch/id',
                 },
                 Delete: {
                     function: 'DELETE',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/delete/id',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/delete/id',
                 },
                 GetGenres: {
                     function: 'GET',
                     endpoint:
-                        'https://api-coche-gamma-three.vercel.app/api/v1/coches/get/genres',
+                        'https://api-vehiculos.vercel.app/api/v1/coches/get/genres',
                 },
             },
         };

@@ -27,47 +27,47 @@ export class BarcoController {
                 GetAll: {
                     function: 'GET',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/get/all',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/get/all',
                 },
                 GetAllPaginated: {
                     function: 'GET',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/get/all-paginated?page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/get/all-paginated?page=1&limit=10',
                 },
                 GetOne: {
                     function: 'GET',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/get/one-barco/id',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/get/one-barco/id',
                 },
                 GetByTitle: {
                     function: 'GET',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/get/search?title=barcoTitle&page=1&limit=10',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/get/search?title=barcoTitle&page=1&limit=10',
                 },
                 Add: {
                     function: 'POST',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/add',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/add',
                 },
                 UpdatePut: {
                     function: 'PUT',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/update/put/id',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/update/put/id',
                 },
                 UpdatePatch: {
                     function: 'PATCH',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/update/patch/id',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/update/patch/id',
                 },
                 Delete: {
                     function: 'DELETE',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/delete/id',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/delete/id',
                 },
                 GetGenres: {
                     function: 'GET',
                     endpoint:
-                        'https://api-barco-gamma-three.vercel.app/api/v1/barcos/get/genres',
+                        'https://api-vehiculos.vercel.app/api/v1/barcos/get/genres',
                 },
             },
         };
