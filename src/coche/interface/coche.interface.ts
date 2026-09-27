@@ -1,10 +1,9 @@
-export interface Anime {
-  title: string;
-  image: string;
+export interface Coche {
+  name: string;
   year: number;
-  genre: string;
-  author: string;
+  model: string;
+  motor: string;
   price: number;
 }
 
-export interface AnimeDocument extends Anime, Document {}
+export interface CocheDocument extends Coche, Document {}

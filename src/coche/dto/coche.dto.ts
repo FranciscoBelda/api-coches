@@ -1,13 +1,9 @@
 import { IsNotEmpty, IsNumber, IsString } from 'class-validator';
 
-export class AnimeDto {
+export class CocheDto {
   @IsNotEmpty()
   @IsString()
-  title: string;
-
-  @IsNotEmpty()
-  @IsString()
-  image: string;
+  name: string;
 
   @IsNotEmpty()
   @IsNumber()
@@ -15,11 +11,11 @@ export class AnimeDto {
 
   @IsNotEmpty()
   @IsString()
-  genre: string;
+  model: string;
 
   @IsNotEmpty()
   @IsString()
-  author: string;
+  motor: string;
 
   @IsNotEmpty()
   @IsNumber()
